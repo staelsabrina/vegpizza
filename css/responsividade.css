@@ -1,0 +1,55 @@
+@media (max-width: 900px) {
+    nav {
+        position: fixed;
+    }
+
+    .titulo {
+        background: #fff;
+        background-image: url(../img/pizza.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position-y: -100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: rgb(255, 255, 255);
+    }
+
+    .titulo h1 {
+        font-family: 'Condiment', cursive;
+        font-size: 80px;
+        color: rgb(211, 157, 40);
+        margin-top: 50vh;
+    }
+    
+    .titulo h2 {
+        color: rgb(168, 126, 35);
+        font-size: 18px;
+    }
+
+    .pizzas {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    ul {
+        width: 70vw;
+    }
+
+    .cardapio p {
+        width: 80vw;
+        margin-bottom: 10px;
+    }
+
+    .formulario {
+        display: flex;
+        flex-direction: column;
+        color: rgb(168, 126, 35);
+        font-weight: 800;
+        width: 70vw;
+    }
+}

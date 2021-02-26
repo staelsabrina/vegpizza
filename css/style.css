@@ -83,6 +83,11 @@ nav h3 {
     width: 70%;
 }
 
+.lista {
+    display: flex;
+    flex-direction: column;
+}
+
 h4 {
     margin-top: 30px;
     margin-bottom: 10px;
@@ -94,12 +99,14 @@ h4 {
 ul {
     padding: 30px;
     margin: 30px;
-    background: #d3d3d3a1;
+    background: #ffffffe0;
     color: rgb(211, 157, 40);
     width: 23vw;
     border-radius: 0 20px 0 20px;
     box-shadow: -2px 3px 8px #979797;
     transition: 0.5s;
+    display: flex;
+    justify-content: center;
 }
 
 ul:hover {
