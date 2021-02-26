@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Condiment&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <title>VegPizza</title>
+</head>
+<body>
+
+    <header id="home">
+        <nav>
+            <a href="#home"><h3>home</h3></a>
+            <a href="#cardapio"><h3>cardápio</h3></a>
+            <a href="#contatos"><h3>contatos</h3></a>
+        </nav>
+        <div class="titulo">
+            <h1>VegPizza</h1>
+            <h2>A melhor pizza da Galáxia</h2>
+        </div>
+    </header>
+    
+    <section class="cardapio" id="cardapio">
+        <h4>cardápio</h4>
+
+        <div class="pizzas">
+            <ul class="salgadas">
+                <h3>salgadas*</h3>
+                <li>Tomate Seco e Rúcula</li>
+                <li>Alho e Óleo</li>
+                <li>Marguerita</li>
+                <li>Napolitana</li>
+                <li>Brócolis e azeitonas</li>
+                <li>Cogumelos ao Pesto</li>
+                <li>Strogonoff de Pinhão</li>
+                <li>Escarola com Tofupiry</li>
+                <li>Tofu Grelhado com Alho</li>
+                <li>Alho Poró flambado na cachaça</li>
+                <li>Cebola Caramelizada</li>
+                <li>Bolonhesa de Lentilha</li>
+                <li>Tomate Confitado com Manjericão</li>
+                <li>Palmito assado</li>
+                <li>Abobrinha defumada</li>
+            </ul>
+
+            <ul class="doces">
+                <h3>doces **</h3>
+                <li>Chocolate com Morango</li>
+                <li>Chocolate com Paçoca</li>
+                <li>Californiana</li>
+                <li>Banana</li>
+                <li>Brigadeiro</li>
+                <li>Abacaxi com leite condensado</li>
+                <li>Beijinho de Coco</li>
+                <li>Ganache</li>
+                <li>Sorvete</li>
+            </ul>
+        </div>
+
+        <p>* Todas são acompanhadas de queijo de castanha e orégano</p>
+        <p>** Todas são acompanhadas queijo de castanha</p>
+
+    </section>
+    
+    <section class="contatos" id="contatos">
+        <h4>contatos</h4>
+        <form class="formulario" method="post">
+
+            <label for="nomesobrenome">Nome: </label>
+            <input type="text" id="nomesobrenome" class="input-padrao" required placeholder="Nome e sobrenome">
+
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" class="input-padrao" required placeholder="(xx) xxxxx-xxxx">
+
+            <label class="checkbox"><input type="checkbox" checked> Whatsapp</label>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">            
+
+            <label for="mensagem">Mensagem</label>
+            <textarea id="mensagem" cols="70" rows="4" class="input-padrao" required></textarea>            
+            
+            <input type="submit" value="Enviar formulário" class="enviar">
+
+        </form>
+    </section>
+    
+    <footer>
+        <p>Copyright &copy; 2021 - by <strong id="sig">Stael Sabrina</strong><br>
+        <a href="http://www.linkedin.com/in/staelsabrina" target="_blank">LinkedIn</a> | <a href="http://www.github.com/staelsabrina" target="_blank">GitHub</a></p>
+    </footer>
+
+    
+</body>
+</html>

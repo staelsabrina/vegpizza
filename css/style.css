@@ -1,0 +1,190 @@
+@font-face{
+    font-family: 'sig';
+    src: url(../font/modernline.otf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+    width: 100vw;
+    overflow-x:hidden;
+}
+
+nav {
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    background: rgb(211, 157, 40);
+}
+
+nav h3 {
+    padding: 5px 20px;
+    font-size: 14px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.titulo {
+    background-image: url(../img/pizza.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    justify-content: center;
+    margin-right: 15vw;
+}
+
+.titulo h1 {
+    font-family: 'Condiment', cursive;
+    font-size: 150px;
+    color: rgb(211, 157, 40);
+}
+
+.titulo h2 {
+    color: rgb(168, 126, 35);
+}
+
+.cardapio {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-image: url(../img/pizza2.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+}
+
+.cardapio p {
+    color: rgb(168, 126, 35)
+}
+
+.pizzas {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+}
+
+h4 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: rgb(168, 126, 35);
+    font-size: 25px;
+    text-transform: capitalize;
+}
+
+ul {
+    padding: 30px;
+    margin: 30px;
+    background: #d3d3d3a1;
+    color: rgb(211, 157, 40);
+    width: 23vw;
+    border-radius: 0 20px 0 20px;
+    box-shadow: -2px 3px 8px #979797;
+    transition: 0.5s;
+}
+
+ul:hover {
+    transform: scale(1.1);
+}
+
+ul h3 {
+    color: rgb(168, 126, 35);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contatos {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-image: url(../img/pizza3.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: -10%;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    color: rgb(168, 126, 35);
+    font-weight: 800;
+    width: 38vw;
+}
+
+label {
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+input,
+textarea {
+    padding: 15px 15px;
+    color: rgb(168, 126, 35);
+}
+
+.enviar {
+    width: 150px;
+    text-align: center;
+    margin-top: 30px;
+    align-self: center;
+    background: rgb(211, 157, 40);
+    color: #ffffff;
+    border-radius: 10px;
+    border: 0;
+    transition: 0.4s;
+}
+
+.enviar:hover {
+    background: rgb(168, 126, 35);
+    transform: scale(1.2);
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    background: rgb(211, 157, 40);
+    color: #ffffff;
+}
+
+footer p{
+    text-align: center;
+    font-size: 10pt;
+}
+
+footer a {
+    text-decoration: none;
+    color: #ffffff;
+    transition: 0.5s;
+}
+
+footer a:hover {
+    color: rgb(117, 88, 25);
+}
+
+#sig {
+    font-family: 'sig';
+}
